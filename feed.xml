@@ -3,10 +3,10 @@
   <channel>
     <title>Журнал науки и техники</title>
     <description>Журнал науки и техники</description>
-    <link>http://factum-me.github.io/journal.github.io//</link>
-    <atom:link href="http://factum-me.github.io/journal.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2015 17:20:15 +0300</pubDate>
-    <lastBuildDate>Sat, 16 May 2015 17:20:15 +0300</lastBuildDate>
+    <link>http://factum-me.github.io/journal.github.io/</link>
+    <atom:link href="http://factum-me.github.io/journal.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 16 May 2015 17:59:14 +0300</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 17:59:14 +0300</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Fri, 15 May 2015 02:51:17 +0300</pubDate>
-        <link>http://factum-me.github.io/journal.github.io//jekyll/update/2015/05/15/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://factum-me.github.io/journal.github.io//jekyll/update/2015/05/15/welcome-to-jekyll/</guid>
+        <link>http://factum-me.github.io/journal.github.io/jekyll/update/2015/05/15/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://factum-me.github.io/journal.github.io/jekyll/update/2015/05/15/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
