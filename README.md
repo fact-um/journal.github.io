@@ -1,2 +1,2 @@
-# journal.github.io
-Render of "Journal of Science and Technology"
+# journal
+Journal of Science and Technology
