@@ -410,6 +410,6 @@ a:visited { color: #205caa; }
 }
 
 .social {
-	margin-bottom: 20px;
-	text-align: center;
+	margin: 20px auto;
+	/*text-align: center;*/
 }
