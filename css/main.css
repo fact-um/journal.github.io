@@ -18,8 +18,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+a         { color: #2a7ae2; text-decoration: none; border-bottom: 1px solid lightblue; }
+a:hover   { color: #000; text-decoration: none; border-bottom-style: dotted; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -407,4 +407,9 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+}
+
+.social {
+	margin-bottom: 20px;
+	text-align: center;
 }
