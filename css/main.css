@@ -413,3 +413,13 @@ a:visited { color: #205caa; }
 	margin: 15px 0;
 	text-align: center;
 }
+.br {
+	display: block;
+	margin: 15px;
+}
+.left {
+	float: left;
+}
+.posts .column {
+	display: inline-block;
+}
