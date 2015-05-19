@@ -55,7 +55,7 @@ a:hover   { color: red; text-decoration: none; border-bottom-color: lightsalmon;
   font-size: 26px;
   /*letter-spacing: -1px;*/
   float: left;
-  /*line-height: 56px;*/
+  line-height: 30px;
   position: relative;
   z-index: 1;
 }
@@ -438,4 +438,32 @@ a .pseudo-href {
 a:hover .pseudo-href {
 	color: red;
 	border-bottom-color: lightsalmon;
+}
+.hr {
+	/*height: 1px;*/
+	/*padding: 1px;*/
+	border: 0;
+	border-top: 1px solid #eee;
+}
+.hr.post {
+	margin-bottom: 15px;
+}
+
+.post ul.pagination {
+	margin-left: 0;
+}
+.posts.pagination .post-link {
+	font-size: 16px;
+	line-height: 22px;
+}
+.posts.pagination li {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+.posts.pagination .previous {
+	margin-right: 3%;
+}
+.posts.pagination .post-date {
+	font-size: 12px;
 }
