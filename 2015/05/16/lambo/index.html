@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Скачать Ламборгини обои в ХД для настольных и мобильных ПК здесь</title>
+    <title>Скачать Ламборгини обои в&nbsp;ХД для настольных и&nbsp;мобильных&nbsp;ПК здесь</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Журнал науки и техники">
     <link rel="canonical" href="http://factum.me/journal/2015/05/16/lambo/">
@@ -61,7 +61,7 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Скачать Ламборгини обои в ХД для настольных и мобильных ПК здесь</h1>
+    <h1>Скачать Ламборгини обои в&nbsp;ХД для настольных и&nbsp;мобильных&nbsp;ПК здесь</h1>
     <p class="meta">May 16, 2015</p>
   </header>
 
@@ -149,8 +149,35 @@
       </div>
     </div>
 
-    <div class="social">
+    <script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+
+<div class="social">
 	<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
+	<script>
+		function init(){
+			var name = document.location.href + ' ' + $('head meta[property="og:image"]').attr('content');
+			console.log( 'init', name );
+			Ya.share({
+				params: {
+					serviceSpecific: {
+						twitter: {
+							title: name,
+							description: name
+						}
+					}
+				}
+			});
+		}
+		function wait(){
+			console.log( 'wait' );
+			if ( window.Ya && Ya.share && typeof Ya.share == 'function' ){
+				init();
+			}else{
+				setTimeout( wait ,150);
+			}
+		}
+		wait();
+	</script>
 </div>
 
 <footer class="site-footer">
