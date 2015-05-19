@@ -10,8 +10,8 @@
     <link rel="canonical" href="http://factum.me/journal/2015/05/18/solar_road/">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/journal/css/main.css?v=1.02">
-	<!--<link rel="stylesheet" href="http://factum.me/journal/css/main.css?v=1.02">-->
+    <!--<link rel="stylesheet" href="/journal/css/main.css?v=1.02">-->
+	<link rel="stylesheet" href="http://factum.me/journal/css/main.css?v=1.02">
 
 	<!--  | prepend: site.baseurl | prepend: site.url -->
 	
@@ -164,35 +164,9 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
-
-<div class="social">
-	<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
-	<script>
-		function init(){
-			var name = document.location.href + ' ' + $('head meta[property="og:image"]').attr('content');
-			console.log( 'init', name );
-			Ya.share({
-				params: {
-					serviceSpecific: {
-						twitter: {
-							title: name,
-							description: name
-						}
-					}
-				}
-			});
-		}
-		function wait(){
-			console.log( 'wait' );
-			if ( window.Ya && Ya.share && typeof Ya.share == 'function' ){
-				init();
-			}else{
-				setTimeout( wait ,150);
-			}
-		}
-		wait();
-	</script>
+    <div class="social">
+	<script type="text/javascript" src="http://yastatic.net/share/share.js" charset="utf-8"></script>
+	<div class="ya_share yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
 </div>
 
 <footer class="site-footer">
