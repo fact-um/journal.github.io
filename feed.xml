@@ -5,13 +5,15 @@
     <description>Журнал науки и техники</description>
     <link>http://factum.me/journal/</link>
     <atom:link href="http://factum.me/journal/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 May 2015 23:01:01 +0300</pubDate>
-    <lastBuildDate>Thu, 21 May 2015 23:01:01 +0300</lastBuildDate>
+    <pubDate>Thu, 21 May 2015 23:05:13 +0300</pubDate>
+    <lastBuildDate>Thu, 21 May 2015 23:05:13 +0300</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>Сравнение девяти крупнейших городов. Урбанизация в графиках и цифрах.</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;Где живут люди&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;/journal/photo/2015-05-21-urban/raw/1.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/journal/photo/2015-05-21-urban/small/1.gif&quot; alt=&quot;Сравнение девяти крупнейших городов. Урбанизация в графиках и цифрах.&quot; /&gt; &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;Где живут люди&lt;/h2&gt;
 
 &lt;p&gt;В отличие от более универсального показателя ‘интернет-плотность’,
  представленным в прошлых исследованиях, шкала резидентов показывает
