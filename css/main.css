@@ -160,7 +160,7 @@ a:hover   { color: red; text-decoration: none; border-bottom-color: lightsalmon;
 .posts .post-link {
   font-size: 24px;
   /*letter-spacing: -1px;*/
-  line-height: 1;
+  line-height: 30px;
 }
 
 .posts .post-date {
