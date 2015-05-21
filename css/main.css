@@ -65,8 +65,11 @@ a:hover   { color: red; text-decoration: none; border-bottom-color: lightsalmon;
 }
 
 .site-nav {
+	position: relative;
+	top: -50px;
   float: right;
   line-height: 56px;
+	margin-bottom: -50px;
 }
 
 .site-nav .menu-icon { display: none; }
@@ -466,4 +469,15 @@ a:hover .pseudo-href {
 }
 .posts.pagination .post-date {
 	font-size: 12px;
+}
+.posts.logo .column-text{
+	position: relative;
+	font-size: 22px;
+	padding-top: 35px;
+}
+.post a.img {
+	border-bottom-width: 0;
+}
+.post a.img:hover {
+	border-bottom-width: 1px;
 }

@@ -7,15 +7,16 @@
     <title>О&nbsp;журнале</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Журнал науки и техники">
-    <link rel="canonical" href="http://factum.me/journal/about/">
+    <link rel="canonical" href="/journal/about/">
 
     <!-- Custom CSS -->
     <!--<link rel="stylesheet" href="/journal/css/main.css?v=1.02">-->
-	<link rel="stylesheet" href="http://factum.me/journal/css/main.css?v=1.02">
+	<link rel="stylesheet" href="/journal/css/main.css?v=1.02">
 
 	<!--  | prepend: site.baseurl | prepend: site.url -->
 	
 	<meta name="google-site-verification" content="54LlsWrqK8u838IeoN_GlOCVWdmJwsSSuBfChvGuAa8" />
+	<link rel="icon" type="image/png" href="/journal/favorite.ico" />
 
 </head>
 
@@ -24,9 +25,26 @@
 
     <header class="site-header">
 
-  <div class="wrap">
+  <div class="wrap posts logo">
 
-    <a class="site-title" href="/journal/">Журнал науки и техники</a>
+	
+		<a class="post-link" href="/journal/">
+	
+			<span class="column column-img">
+				<span class="pseudo-href-img">
+					<img width="220" class="img" src="/journal/f/logo-middle.png" alt="" />
+				</span>
+			</span>
+			<span class="column column-text">
+				<span class="pseudo-href">Журнал науки и техники</span>
+			</span>
+	
+		</a>
+	
+
+
+
+  <!--a class="site-title" href="/journal/">Журнал науки и техники</a-->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -172,37 +190,8 @@
 
 </footer>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-	var yaParams = {/*Здесь параметры визита*/};
-</script>
+<script type="text/javascript" src="/journal/f/counters.js"></script>
 
-<script type="text/javascript">
-	(function (d, w, c) {
-		(w[c] = w[c] || []).push(function() {
-			try {
-				w.yaCounter17696623 = new Ya.Metrika({id:17696623,
-					webvisor:true,
-					clickmap:true,
-					trackLinks:true,
-					accurateTrackBounce:true,
-					trackHash:true,params:window.yaParams||{ }});
-			} catch(e) { }
-		});
-
-		var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-		s.type = "text/javascript";
-		s.async = true;
-		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-		if (w.opera == "[object Opera]") {
-			d.addEventListener("DOMContentLoaded", f, false);
-		} else { f(); }
-	})(document, window, "yandex_metrika_callbacks");
-</script>
-<!-- /Yandex.Metrika counter -->
 
     </body>
 </html>
